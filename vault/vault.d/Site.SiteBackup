@@ -1,0 +1,92 @@
+version=pmwiki-2.2.133 ordered=1 urlencoded=1
+agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36
+author=
+charset=UTF-8
+csum=Go through this guide to host it locally without a server: [[https://github.com/GiverofMemory/NatureVault/blob/main/README.md#for-offline-use|NatureVault Readme]] or [[https://www.pmwiki.org/wiki/Cookbook/Standalone|Standalone PmWiki]] 
+ctime=1607623833
+host=92.38.148.61
+name=Site.SiteBackup
+rev=31
+targets=
+text=Running your own version of NatureVault is not hard!%0a%0a!!Download current NatureVault[[#current]]%0aDid you make a page on the wiki and want to save the whole wiki right away?  Make sure you are logged in (password: nature), and click the "Site Dump" link on the left side bar.  It will be in tar.gz and you should be able to open it with a zip program like 7zip.%0a%0aThis gives you only the 'wiki' folder.  This has all the content of the wiki but it is missing the highest level things like site icons and the like.  Use the 'github archive' method below and simply use what you got from this step in the wiki folder of what you get from the github archive.%0a%0a!!Download NatureVault from Archive%0aSimply click the "Github Archive" link on the left sidebar, click 'Code' button and you can either download as a zip file or [[https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository|clone it]] (cloning allows you to keep an up to date version easier).%0a%0aNext extract the folder.  This is the website in full.  The contents of this would be placed into the htdocs folder (sometimes also called 'www' or 'public') of an Apache web server (like XAMPP, WAMP, Abyss, or your web host).  %0a%0aThis method will give you the full NatureVault site the last time I pushed it from the web server to github.  This might be a few days behind, see the process above ([[#current|download current naturevault]]) to get the latest data straight from the webserver.%0a%0a!!Preparation for hosting [[#prep]]%0a%0aYou will need to make some changes in the [[https://github.com/GiverofMemory/NatureVault/blob/main/wiki/local/config.php|config.php]] file located in the wiki->local folder.  You will need to change the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a!!Host locally without a server [[#standalone]]%0a%0aGo through this guide to host it locally without a server: [[https://github.com/GiverofMemory/NatureVault/blob/main/README.md#for-offline-use|NatureVault Readme]] or [[https://www.pmwiki.org/wiki/Cookbook/Standalone|Standalone PmWiki]]%0a%0a!!Server Hosting%0aIf you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will give you the info you need to do a normal install too).%0a%0aEnjoy!
+time=1666284504
+author:1666284504=
+diff:1666284504:1659843122:=20c20%0a%3c Go through this guide to host it locally without a server: [[https://github.com/GiverofMemory/NatureVault/blob/main/README.md#for-offline-use|NatureVault Readme]] or [[https://www.pmwiki.org/wiki/Cookbook/Standalone|Standalone PmWiki]]%0a---%0a> Go through this guide to host it locally without a server: [[https://www.pmwiki.org/wiki/Cookbook/Standalone|Standalone PmWiki]]%0a
+author:1659843122=
+diff:1659843122:1631108461:=1c1%0a%3c Running your own version of NatureVault is not hard!%0a---%0a> Running your own version of NatureWiki is not hard!%0a
+author:1631108461=
+diff:1631108461:1631108398:=17c17%0a%3c You will need to make some changes in the [[https://github.com/GiverofMemory/NatureVault/blob/main/wiki/local/config.php|config.php]] file located in the wiki->local folder.  You will need to change the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a---%0a> You will need to make some changes in the config.php file located in the wiki->local folder.  You will need to change the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a
+author:1631108398=
+diff:1631108398:1631108356:=17c17%0a%3c You will need to make some changes in the config.php file located in the wiki->local folder.  You will need to change the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a---%0a> You will need to make some changes in the config.php file located in the wiki->local folder.  You will need to chante the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a
+author:1631108356=
+diff:1631108356:1631108307:=18c18%0a%3c !!Host locally without a server [[#standalone]]%0a---%0a> !!Host locally without a server%0a
+author:1631108307=
+diff:1631108307:1631108279:=3c3%0a%3c !!Download current NatureVault[[#current]]%0a---%0a> !!Download current NatureVault%0a
+author:1631108279=
+diff:1631108279:1631107805:=13,17c13%0a%3c This method will give you the full NatureVault site the last time I pushed it from the web server to github.  This might be a few days behind, see the process above ([[#current|download current naturevault]]) to get the latest data straight from the webserver.%0a%3c %0a%3c !!Preparation for hosting [[#prep]]%0a%3c %0a%3c You will need to make some changes in the config.php file located in the wiki->local folder.  You will need to chante the url's specified in this file to point to your correct domains (or local if using the [[#standalone|standalone]] method).  This includes making sure you use http or https correctly as the case may be with your hosting.%0a---%0a> This method will give you the full NatureVault site the last time I pushed it from the web server to github.  This might be a few days behind, see the process above (download current naturevault) to get the latest data straight from the webserver.%0a
+author:1631107805=
+diff:1631107805:1631107444:=9c9%0a%3c Simply click the "Github Archive" link on the left sidebar, click 'Code' button and you can either download as a zip file or [[https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository|clone it]] (cloning allows you to keep an up to date version easier).%0a---%0a> Simply click the "Github Archive" link on the left sidebar, click 'Code' button and you can either download as a zip file or clone it (cloning allows you to keep an up to date version easier).%0a
+author:1631107444=
+diff:1631107444:1631107413:=8c8%0a%3c !!Download NatureVault from Archive%0a---%0a> !!Download NatureWiki from Archive%0a
+author:1631107413=
+diff:1631107413:1631107386:=3c3%0a%3c !!Download current NatureVault%0a---%0a> !!Download current NatureWiki%0a
+author:1631107386=
+diff:1631107386:1631107260:=13d12%0a%3c This method will give you the full NatureVault site the last time I pushed it from the web server to github.  This might be a few days behind, see the process above (download current naturevault) to get the latest data straight from the webserver.%0a
+author:1631107260=
+diff:1631107260:1631107102:=5,6d4%0a%3c %0a%3c This gives you only the 'wiki' folder.  This has all the content of the wiki but it is missing the highest level things like site icons and the like.  Use the 'github archive' method below and simply use what you got from this step in the wiki folder of what you get from the github archive.%0a
+author:1631107102=
+diff:1631107102:1610661252:=7,9c7,10%0a%3c Simply click the "Github Archive" link on the left sidebar, click 'Code' button and you can either download as a zip file or clone it (cloning allows you to keep an up to date version easier).%0a%3c %0a%3c Next extract the folder.  This is the website in full.  The contents of this would be placed into the htdocs folder (sometimes also called 'www' or 'public') of an Apache web server (like XAMPP, WAMP, Abyss, or your web host).  %0a---%0a> %25rfloat width=130px%25Attach:naturedownload.png%0a> Simply click the "Download Wiki" link on the left sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. See example pic to the right.%0a> %0a> Next extract the htdocs folder.  This is the website in full.  The contents of htdocs would be placed into the htdocs folder (sometimes also called 'www') of an Apache web server (like XAMPP, WAMP, or Abyss).  %0a
+author:1610661252=
+diff:1610661252:1610661234:=4c4%0a%3c Did you make a page on the wiki and want to save the whole wiki right away?  Make sure you are logged in (password: nature), and click the "Site Dump" link on the left side bar.  It will be in tar.gz and you should be able to open it with a zip program like 7zip.%0a---%0a> Make a page and want to save the whole wiki right away?  Make sure you are logged in (password: nature), and click the "Site Dump" link on the left side bar.  It will be in tar.gz and you should be able to open it with a zip program like 7zip.%0a
+host:1610661252=92.38.148.61
+author:1610661234=
+diff:1610661234:1607624463:=3,6c3%0a%3c !!Download current NatureWiki%0a%3c Make a page and want to save the whole wiki right away?  Make sure you are logged in (password: nature), and click the "Site Dump" link on the left side bar.  It will be in tar.gz and you should be able to open it with a zip program like 7zip.%0a%3c %0a%3c !!Download NatureWiki from Archive%0a---%0a> !!Download NatureWiki%0a8c5%0a%3c Simply click the "Download Wiki" link on the left sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. See example pic to the right.%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. See example pic to the right.%0a
+host:1610661234=92.38.148.61
+author:1607624463=
+diff:1607624463:1607624428:=7c7%0a%3c Next extract the htdocs folder.  This is the website in full.  The contents of htdocs would be placed into the htdocs folder (sometimes also called 'www') of an Apache web server (like XAMPP, WAMP, or Abyss).  %0a---%0a> Next extract the htdocs folder.  This is the website in full.  The contents of htdocs would be placed into the htdocs folder (sometimes also called 'www') of a Apache web server.  %0a
+host:1607624463=104.175.54.158
+author:1607624428=
+diff:1607624428:1607624403:=5c5%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. See example pic to the right.%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %0a
+host:1607624428=104.175.54.158
+author:1607624403=
+diff:1607624403:1607624381:=4c4%0a%3c %25rfloat width=130px%25Attach:naturedownload.png%0a---%0a> %25rfloat width=100px%25Attach:naturedownload.png%0a
+host:1607624403=104.175.54.158
+author:1607624381=
+diff:1607624381:1607624346:=4c4%0a%3c %25rfloat width=100px%25Attach:naturedownload.png%0a---%0a> %25lfloat width=100px%25Attach:naturedownload.png%0a
+host:1607624381=104.175.54.158
+author:1607624346=
+diff:1607624346:1607624327:=3a4,5%0a> %0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %0a5d6%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %0a
+host:1607624346=104.175.54.158
+author:1607624327=
+diff:1607624327:1607624311:=6c6%0a%3c %25lfloat width=100px%25Attach:naturedownload.png%0a---%0a> %25rfloat width=100px%25Attach:naturedownload.png%0a
+host:1607624327=104.175.54.158
+author:1607624311=
+diff:1607624311:1607624267:=5,6c5%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %0a%3c %25rfloat width=100px%25Attach:naturedownload.png%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %25width=100px%25Attach:naturedownload.png%0a
+host:1607624311=104.175.54.158
+author:1607624267=
+diff:1607624267:1607624255:=5c5%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %25width=100px%25Attach:naturedownload.png%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %25width=50px%25Attach:naturedownload.png%0a
+host:1607624267=104.175.54.158
+author:1607624255=
+diff:1607624255:1607624199:=5c5%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. %25width=50px%25Attach:naturedownload.png%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. Attach:naturedownload.png%0a
+host:1607624255=104.175.54.158
+author:1607624199=
+diff:1607624199:1607624098:=5c5%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it. Attach:naturedownload.png%0a---%0a> Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it.%0a
+host:1607624199=104.175.54.158
+author:1607624098=
+diff:1607624098:1607624059:=14c14%0a%3c If you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will give you the info you need to do a normal install too).%0a---%0a> If you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too).%0a
+host:1607624098=104.175.54.158
+author:1607624059=
+diff:1607624059:1607624049:=14c14%0a%3c If you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too).%0a---%0a> or if you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too).%0a
+host:1607624059=104.175.54.158
+author:1607624049=
+diff:1607624049:1607623971:=7c7%0a%3c Next extract the htdocs folder.  This is the website in full.  The contents of htdocs would be placed into the htdocs folder (sometimes also called 'www') of a Apache web server.  %0a---%0a> Next extract the htdocs folder.  This is the website in full.%0a
+host:1607624049=104.175.54.158
+author:1607623971=
+diff:1607623971:1607623914:=3,4d2%0a%3c !!Download NatureWiki%0a%3c %0a9,10d6%0a%3c !!Host locally without a server%0a%3c %0a13d8%0a%3c !!Server Hosting%0a
+host:1607623971=104.175.54.158
+author:1607623914=
+diff:1607623914:1607623833:=3,4c3,4%0a%3c Simply click the "Download Wiki" link on the sidebar, click NatureWiki, and choose one of the backup zip files (probably the most recent date).  Download it.%0a%3c %0a---%0a> Simply click the "Download Wiki" link on the sidebar.%0a> %0a9,11c9%0a%3c or if you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too).%0a%3c %0a%3c Enjoy!%0a\ No newline at end of file%0a---%0a> or if you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too)%0a\ No newline at end of file%0a
+host:1607623914=104.175.54.158
+author:1607623833=
+diff:1607623833:1607623833:=1,9d0%0a%3c Running your own version of NatureWiki is not hard!%0a%3c %0a%3c Simply click the "Download Wiki" link on the sidebar.%0a%3c %0a%3c Next extract the htdocs folder.  This is the website in full.%0a%3c %0a%3c Go through this guide to host it locally without a server: [[https://www.pmwiki.org/wiki/Cookbook/Standalone|Standalone PmWiki]]%0a%3c %0a%3c or if you want to host a server [[https://www.pmwiki.org/wiki/Cookbook/WikiOnAStick|this guide]] works (note: you do ''not'' need to use a usb drive, the guide will direct you how to do a normal install too)%0a\ No newline at end of file%0a
+host:1607623833=104.175.54.158

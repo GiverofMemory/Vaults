@@ -74,7 +74,7 @@ $EditTemplatesFmt = '{$Group}.Template';
 include_once("$FarmD/scripts/refcount.php");
 
 ########## Privacy ############
-## These don't seem to work (nothing is logged) with any setting see pmwiki.php for the lines.
+## These don't seem to work (nothing is logged) with any setting see vaults.php for the lines.
 $EnableRevUserAgent = 0;  ## 1 means enable logging of users browser info when making a revision or post
 $EnableRevHostIP = 0;     ## 1 means enable logging of users IP Address when making a revision or post
 $EnablePostUserAgent = 0; ## 1 means enable logging of users browser info when making a new post
@@ -112,14 +112,14 @@ $PmTOC['EnableBacklinks'] = 1;
 
 ##  $ScriptUrl is the URL for accessing wiki pages with a browser.
 ##  $PubDirUrl is the URL for the pub directory.
-## Eliminate "pmwiki.php" from URLs set enabelpathinfo to 0?
+## Eliminate "vaults.php" from URLs set enabelpathinfo to 0?
 $EnablePathInfo = 1;
 $ScriptUrl = 'https://www.yoururl.xxx/vault/vaults.php';
 $PubDirUrl = 'https://www.yoururl.xxx/vault/pub';
 $FarmPubDirUrl = 'https://www.yoururl.xxx/vault/pub'; ##usually defaults to $pubdirurl
 
-##  If you want to use URLs of the form .../pmwiki.php/Group/PageName
-##  instead of .../pmwiki.php?p=Group.PageName, try setting
+##  If you want to use URLs of the form .../vaults.php/Group/PageName
+##  instead of .../vaults.php?p=Group.PageName, try setting
 ##  $EnablePathInfo below.  Note that this doesn't work in all environments,
 ##  it depends on your webserver and PHP configuration.  You might also
 ##  want to check https://www.pmwiki.org/wiki/Cookbook/CleanUrls more

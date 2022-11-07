@@ -4,7 +4,7 @@
 
 ### Vaults is a maintained fork of [PmWiki](https://www.pmwiki.org/) software
 
-Vaults is a specially tuned version of PmWiki that enables you to easily save your knowledge, data, and links and keep it private on your own computer that can be used offline, or host it for the world to see and help you save it.  Vaults gives you that wikipedia-like experience to save your data in a very navigable form, all without requiring a database and thus making it much easier to backup.  Save your vault on a disk or usb drive and as long as computers are around, it will be able to be accessed.  Of course you can also back it up with Git as well.
+Vaults is a specially tuned version of PmWiki that enables you to easily save your knowledge, data, and links and keep it private on your own computer that can be used offline, or host it for the world to see and help you save it (keeping the idea of [wiki federation](https://en.wikipedia.org/wiki/Wiki#Alternative_definitions) alive).  Vaults gives you that wikipedia-like experience to save your data in a very navigable form, all without requiring a database and thus making it much easier to backup.  Save your vault on a disk or usb drive and as long as computers are around, it will be able to be accessed.  Of course you can also back it up with Git as well.
 
 ## Instructions
 

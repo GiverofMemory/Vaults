@@ -14,7 +14,7 @@ Vaults is a specially tuned version of PmWiki that enables you to easily save yo
 * Inside the server folder double click runvaults.bat.  A black command window will open, you must leave it open while using Vaults.
 * Open your browser and go to http://localhost/vault/vaults.php
 
-For more information see https://www.pmwiki.org/wiki/Cookbook/Standalone and [Collapse documentation](/blog/main/COLLAPSE.md)
+For more information see https://www.pmwiki.org/wiki/Cookbook/Standalone and [Collapse documentation](/COLLAPSE.md)
 
 ### FOR NORMAL ONLINE HOSTING:
 * Place these files and folders into the "htdocs" or "public" folder of your server.

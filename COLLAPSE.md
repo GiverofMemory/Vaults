@@ -4,6 +4,6 @@
 * Computer
 * Moniter
 * Operating System
-* PHP 7.x (currently)
+* PHP 7.x (included)
 * [Any](https://stackoverflow.com/questions/12438911/is-php-universal-in-all-browsers) browser (perhaps [tiny browser](https://github.com/GiverofMemory/tiny-browser) which is included)
 * PHP capable Server (included)

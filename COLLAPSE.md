@@ -1,4 +1,4 @@
-***In a collapse dependencies are the literal devil.  Minimize them and include them at all costs.***
+##### In a collapse dependencies are the ***literal devil***.  Minimize them and include them at all costs.
 
 ## Dependencies for Vaults
 * Browser

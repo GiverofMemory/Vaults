@@ -51,8 +51,8 @@ $UploadPermAdd = 0;
 # $DefaultPasswords['upload'] = pmcrypt('vault');
 # $UploadDirQuota = 100000000; # limit total uploads to 100000KB (100MB)
 # $UploadMaxSize = 52000; # limit each upload to 52KB
-$UploadDir = "/home/public/vault/uploads";
-$UploadUrlFmt = "https://www.yoururl.xxx/vault/uploads";
+$UploadDir = "/Vaults-main/vault/uploads";
+$UploadUrlFmt = "http://localhost/vault/uploads";
 $LinkUploadCreateFmt = "<a rel='nofollow' class='createlinktext' href='\$LinkUpload'>\$LinkText</a>";
 
 ########### Skin ###########
@@ -114,9 +114,9 @@ $PmTOC['EnableBacklinks'] = 1;
 ##  $PubDirUrl is the URL for the pub directory.
 ## Eliminate "vaults.php" from URLs set enabelpathinfo to 0?
 $EnablePathInfo = 1;
-$ScriptUrl = 'https://www.yoururl.xxx/vault/vaults.php';
-$PubDirUrl = 'https://www.yoururl.xxx/vault/pub';
-$FarmPubDirUrl = 'https://www.yoururl.xxx/vault/pub'; ##usually defaults to $pubdirurl
+$ScriptUrl = 'http://localhost/vault/vaults.php';
+$PubDirUrl = 'http://localhost/vault/pub';
+$FarmPubDirUrl = 'http://localhost/vault/pub'; ##usually defaults to $pubdirurl
 
 ##  If you want to use URLs of the form .../vaults.php/Group/PageName
 ##  instead of .../vaults.php?p=Group.PageName, try setting

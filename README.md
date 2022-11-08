@@ -14,7 +14,7 @@ Vaults is a specially tuned version of PmWiki that enables you to easily save yo
 * Inside the server folder double click runvaults.bat.  A black command window will open, you must leave it open while using Vaults.
 * Open your browser and go to http://localhost/vault/vaults.php
 
-for more info see https://www.pmwiki.org/wiki/Cookbook/Standalone
+For more information see https://www.pmwiki.org/wiki/Cookbook/Standalone
 
 ### FOR NORMAL ONLINE HOSTING:
 * Place these files and folders into the "htdocs" or "public" folder of your server.
@@ -32,7 +32,15 @@ for more info see https://www.pmwiki.org/wiki/Cookbook/Standalone
   * chmod 777 /home/public/vault/uploads
   * chmod 777 /home/public/vault/vault.d
     * aside, the command: chmod 2777 /home/public/vault/uploads might be temporary?
-### Notes
+
+### TO ADD ANOTHER VAULT
+
+*
+
+*
+For more information see https://www.pmwiki.org/wiki/PmWiki/WikiFarms
+
+### NOTES
 * For personal hosting Abyss Web server works well.
 * after typing out a command always hit the 'enter' key to run it.
 * the period after the 'git clone' statement means that these files and folders are placed into the directory you are in, instead of making a new folder (which won't work).

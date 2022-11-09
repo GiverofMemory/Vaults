@@ -17,6 +17,7 @@ Vaults is a specially tuned version of PmWiki that enables you to easily save yo
 For more information see https://www.pmwiki.org/wiki/Cookbook/Standalone and [Collapse documentation](/COLLAPSE.md)
 
 ### FOR NORMAL ONLINE HOSTING:
+*Note: I do not intend to keep continuous PHP upgrades.  Make sure your webhost supports PHP 7.4*
 * Place these files and folders into the "htdocs" or "public" folder of your server.
   * To do this I like to use [SSH](https://www.chiark.greenend.org.uk/~sgtatham/putty/) if I am not personally hosting it, then when you are in the hosting directory (usually 'public') run (don't forget the period after):
   

@@ -6,4 +6,4 @@
 * Operating System
 * PHP 7.x (included)
 * [Any](https://stackoverflow.com/questions/12438911/is-php-universal-in-all-browsers) browser (included)
-* PHP capable Server (included)
+* PHP 7.x capable Server (included)

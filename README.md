@@ -1,5 +1,7 @@
 # Vaults - Saving Your Knowledge
 
+After Sept 27 2023 will be moved to Bitbucket or similar github alternative
+
 ## Powers [NatureVault](https://github.com/GiverofMemory/NatureVault)
 
 ### Vaults is a maintained fork of [PmWiki](https://www.pmwiki.org/) software

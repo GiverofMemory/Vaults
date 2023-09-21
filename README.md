@@ -1,8 +1,8 @@
 # Vaults - Saving Your Knowledge
 
-After Sept 27 2023 will be moved to Bitbucket or similar github alternative
+After Sept 27 2023 will be moved to [Bitbucket](https://bitbucket.org/naturevault/vaults/) or [Gitlab](https://gitlab.com/giverofmemory/vaults) or another similar github alternative.
 
-## Powers [NatureVault](https://github.com/GiverofMemory/NatureVault)
+## Powers [NatureVault](https://github.com/GiverofMemory/NatureVault) and the NatureVault [website](http://naturetome2v7rpsvy4ba3cve35y6llpfcpomvj4bwbrgz472e47bjyd.onion/)
 
 ### Vaults is a maintained fork of [PmWiki](https://www.pmwiki.org/) software
 
@@ -48,4 +48,4 @@ For more information see https://www.pmwiki.org/wiki/PmWiki/WikiFarms
 * after typing out a command always hit the 'enter' key to run it.
 * the period after the 'git clone' statement means that these files and folders are placed into the directory you are in, instead of making a new folder (which won't work).
 * Good websites to get new favicon's made is [favicon.io](https://favicon.io) or [realfavicongenerator.net](https://realfavicongenerator.net)
-* For performing daily backups from a webhost like [nearlyfreespeech.net](https://nearlyfreespeech.net) and making a discord bot see [this page](https://www.naturevault.org/wiki/pmwiki.php/NatureVault/Github)
+* For performing daily backups from a webhost like [nearlyfreespeech.net](https://nearlyfreespeech.net) and making a discord bot see [this page](http://naturetome2v7rpsvy4ba3cve35y6llpfcpomvj4bwbrgz472e47bjyd.onion/wiki/vaults.php/NatureVault/Github)
